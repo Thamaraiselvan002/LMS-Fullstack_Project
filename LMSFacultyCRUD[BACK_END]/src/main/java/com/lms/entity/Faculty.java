@@ -15,7 +15,7 @@ public class Faculty {
 		
 		@Id
 		@Column(name="Faculty_ID")
-		@GeneratedValue(strategy = GenerationType.Identity)
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int faculty_id;
 		
 		@Column(name="Faculty_Name")
